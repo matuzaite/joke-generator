@@ -1,0 +1,33 @@
+*{
+  background-color: #837c7c;
+  margin-top: 60px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: rgb(217, 255, 0);
+  border-radius: 30px;
+  height: 50px;
+  padding: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover {
+  cursor: pointer;
+  color: black;
+  background-color:rgb(194, 14, 194) ;
+}
+
+li {
+  list-style-type: none;
+  padding: 20px;
+}
